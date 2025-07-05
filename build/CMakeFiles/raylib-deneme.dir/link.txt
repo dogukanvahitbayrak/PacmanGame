@@ -1,0 +1,1 @@
+/usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names "CMakeFiles/raylib-deneme.dir/src/main.c.o" -o raylib-deneme   -L/opt/homebrew/opt/raylib/lib  -Wl,-rpath,/opt/homebrew/opt/raylib/lib -lraylib

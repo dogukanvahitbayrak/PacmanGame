@@ -1,0 +1,32 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build pacman",
+      "type": "shell",
+      "command": "gcc",
+      "args": [
+        "-g",
+        "src/main.c",
+        "-o",
+        "pacman",
+        "-I/opt/homebrew/include",
+        "-L/opt/homebrew/lib",
+        "-lraylib",
+        "-lm",
+        "-ldl",
+        "-lpthread",
+        "-framework", "CoreVideo",
+        "-framework", "IOKit",
+        "-framework", "Cocoa",
+        "-framework", "OpenGL",
+        "-framework", "CoreAudio"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}

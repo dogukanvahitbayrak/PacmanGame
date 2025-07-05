@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/dogukan/raylib-proje/build",
+  "command": "/usr/bin/clang -I/opt/homebrew/opt/raylib/include -g -std=gnu99 -arch arm64 -o CMakeFiles/raylib-deneme.dir/src/main.c.o -c /Users/dogukan/raylib-proje/src/main.c",
+  "file": "/Users/dogukan/raylib-proje/src/main.c",
+  "output": "CMakeFiles/raylib-deneme.dir/src/main.c.o"
+}
+]
